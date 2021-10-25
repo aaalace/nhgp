@@ -1,0 +1,138 @@
+.fon1 {
+    background: url('/static/images/index1.jpg');
+    min-height: 100%;
+    min-height: 795px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    text-align: center;
+    padding-top: 240px;
+}
+@media (max-width: 600px) {
+    .fon1 {
+        background: url('/static/images/index1x.jpg');
+        background-size: cover;
+    }
+}
+.fon2 {
+    background: url('/static/images/index2.jpg');
+    min-height: 100%;
+    min-height: 795px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    text-align: center;
+    padding-top: 240px;
+}
+@media (max-width: 600px) {
+    .fon2 {
+        background: url('/static/images/index2.jpg');
+        background-size: cover;
+    }
+}
+.fon3 {
+    background: url('/static/images/index3.jpg');
+    min-height: 100%;
+    min-height: 795px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    text-align: center;
+    padding-top: 240px;
+}
+@media (max-width: 600px) {
+    .fon3 {
+        background: url('/static/images/index3.jpg');
+        background-size: cover;
+    }
+}
+.fon4 {
+    background: url('/static/images/index4.jpg');
+    min-height: 100%;
+    min-height: 795px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    text-align: center;
+    padding-top: 240px;
+}
+@media (max-width: 600px) {
+    .fon4 {
+        background: url('/static/images/index4x.jpg');
+        background-size: cover;
+    }
+}
+.fon5 {
+    background: url('/static/images/index5.jpg');
+    min-height: 100%;
+    min-height: 795px;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    text-align: center;
+    padding-top: 240px;
+}
+@media (max-width: 600px) {
+    .fon5 {
+        background: url('/static/images/index5.jpg');
+        background-size: cover;
+    }
+}
+h1 {
+    font-size: calc(1em + 3vw);
+}
+.hrf {
+    font-size: calc(0.8em + 2vw);
+}
+.hrf:hover {
+    text-decoration: none;
+    color: #d3d3d3;
+}
+.hrf {
+    color: white;
+}
+.desc {
+    font-size: calc(1em + 1.5vw);
+    line-height: 50px;
+    color:rgb(248, 245, 245);
+    font-family: Nanum Gothic;
+}
+.name {
+    line-height: 120px; 
+    color:rgb(255, 255, 255);
+    font-family: Nanum Gothic;
+    font-size: calc(1em + 4vw);
+}
+@media (max-width: 600px) {
+    .name {
+        font-size: calc(1em + 3vw);
+    }
+}
+.bt {
+    background-color: rgba(0, 0, 0, 0.411);
+    display: block;
+    width: calc(1em + 30vw);
+    margin: 0 auto;
+    border-radius: 15px;
+}
+@media (max-width: 600px) {
+    .bt {
+        width: calc(1em + 40vw);
+    }
+}
+.bttxt {
+    line-height: 70px;
+    font-size: 150%;
+    color: rgb(248, 245, 245);
+    font-family: Nanum Gothic;
+}
